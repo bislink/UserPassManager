@@ -4,7 +4,7 @@ secrets:
   - UserPassManager202102191202ForGithubAndRedhat
 hypnotoad:
   listen:
-   - 'http://*:80'
+   - 'http://*:8080'
   workers: 10
 preferences:
   appdir: <%= app->home->to_abs() %>
