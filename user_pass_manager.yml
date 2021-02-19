@@ -1,3 +1,10 @@
 ---
 secrets:
   - d491490c9d2d1bd1a25fec9434d7c55bfcc6e9a5
+  - UserPassManager202102191202ForGithubAndRedhat
+hypnotoad:
+  listen:
+   - 'http://*:80'
+  workers: 10
+preferences:
+  appdir: <%= app->home->to_abs() %>
